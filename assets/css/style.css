@@ -1,0 +1,212 @@
+@import url("normalize.css");
+
+body{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/******************* <HEADER> *******************/
+#ova-header{
+    width: 1000px;
+}
+
+ul#ova-headerbar {
+    height: 70px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f7faff;
+}
+
+ul#ova-headerbar li {
+    float: left;
+    height: inherit;
+}
+
+ul#ova-headerbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li#ova-homeicon-wrap{
+    width: 80px;
+    background-color: #ff931e;
+}
+#ova-homeicon-wrap a{
+    margin-top: 10px;
+}
+.ova-homeicon{
+    padding: 5px 16px;
+    margin: auto;
+    background-image: url('../img/home-icon.png');
+    background-repeat: no-repeat;
+}
+
+#ova-title{
+    width: 360px;
+}
+
+#ova-description{
+    width: 435px;
+}
+
+#ova-title p{
+    font-size: 12px;
+    line-height: 9px;
+    color: rgb(123,150,196);
+    font-weight: 300;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#ova-title h1{
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 9px;
+    color: rgb(123,150,196);
+    font-weight: bold;
+}
+
+#ova-description p{
+    padding: 10px;
+    font-size: 10px;
+    line-height: 15px;
+    color: rgb(137,146,162);
+    font-weight: 300;
+}
+
+#ova-img-header{
+    width: 125px;
+    text-align: center;
+}
+#ova-img-header img{
+    margin-top: 15px;
+}
+
+/************ </HEADER> ****************/
+
+/************ <CONTENT> *****************/
+#ova-content{
+    width: 1000px;
+}
+
+#ova-wrap{
+    width: 835px;
+    float: left;
+}
+
+#ova-body{
+    width: 675px;
+    margin: auto;
+}
+    /************* <TABS> *******************/
+    #ova-body-tabs{
+        width: 100%;
+        height: 30px;
+    }
+        
+    #ova-body-tabs ul {
+        list-style-type: none;
+        margin: 15px 0 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #ova-body-tabs ul li {
+        float: left;
+        width: 150px;
+    }
+
+    #ova-body-tabs ul li:not(:last-child){
+        margin-right: 25px;
+    }
+
+    #ova-body-tabs ul li a {
+        display: block;
+        text-align: center;
+        padding: 10px 16px;
+        text-decoration: none;
+        font-size: 10px;
+        line-height: 9px;
+        color: rgb(123,150,196);
+        border: 1px solid #d2dae8;
+        border-radius: 30px;
+    }
+
+    #ova-tab-definition{
+        width: 94%;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: #f6f8fd;
+        font-size: 11px;
+        line-height: 14px;
+        color: rgb(123,125,129);
+        display: none;
+        margin-top: 15px;
+    }
+
+    #ova-tab-definition p{
+        float: left;
+        width: 95%;
+        margin: 0;
+    }
+    #ova-tab-definition a{
+        float: right;
+        margin-top: 0px;
+        margin-right: -5px;
+    }
+
+    a.tab-active{
+        background-color: #ffa13a;
+        color: #FFF !important;
+    }
+    /************** </TABS> *****************/
+
+#ova-biblio{
+    width: 165px;;
+    height: 400px;
+    background-color: #f0f4fc;
+    float: left;
+    text-align: center;
+}
+
+#ova-biblio h2{
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 9px;
+    color: rgb(164,182,215);
+}
+
+#ova-biblio p{
+    margin-top: 30px;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgb(131,156,200);
+}
+
+#ova-biblio p span{
+    font-weight: bolder;
+}
+/************ </CONTENT> ****************/
+
+/************ <FOOTER> ******************/
+#footer{
+    width: 1000px;
+    height: 30px;
+    background-color: #4b5463;
+    color: #FFF;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 14px;
+    font-family: "Andale Mono";
+}
+#footer p{
+    margin-top: 0;
+    padding-left: 35px;
+    padding-top: 7px;
+}
+/************ </FOOTER> ****************/
